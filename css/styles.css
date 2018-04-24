@@ -1,0 +1,58 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+.wrapper{
+	margin:0px 0px 0px 0px;
+}
+
+#home{
+  min-height: 637px;
+  background: url('../img/banner.jpg') no-repeat fixed;
+  background-size: 100% 100%;
+  color:#fff;
+  text-align:center;
+  position: relative;
+}
+
+#home .home h1{
+	font-size:40pt;
+	color:white;
+	padding-top:130px;
+}
+
+#home .home h4{
+	font-size:20pt;
+	color:white;
+}
+
+#home .home hr{
+	width:530px;
+	margin-left:420px;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+
+.button{
+	margin-top:115px;
+	margin-left:-30px;
+}
+
+.button .btn{
+	border:1px solid #ffff;
+	background:transparent;
+	text-decoration: none;
+	color: #fff;
+	padding:10px 40px;
+	transition: 0.5s;
+	margin-right:10px;
+}
+
+.button .btn:hover{
+	background: rgba(255,255,255, .7);
+	color:rgba(0,0,0, .7);
+}
